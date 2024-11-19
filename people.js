@@ -1,17 +1,32 @@
-const names =require("./names")
-console.log(names("firstname","lastname"));
+const names =require("./names.js")
 
 
-const hobbies =require("./hobbies")
-console.log(hobbies("hobbyOne","hobbytwo","hobbythree"));
+
+const hobbies =require("./hobbies.js")
+
 
 
 function person() {
-    firstName;firstName,
-    lastName;lastName,
-    hobby;hobbies
-}
-console.log(person);
+ const {firstname, lastname}=names("simone","gallo")
+ const hobby=hobbies("hobby1", " hobby2", "hobby3")
+
+ return{
+    firstname,
+    lastname,
+    hobby
+ };
+};
+
+const people =person();
+console.log(people);
+
+
+
+
+
+
+
+
 
 
 

@@ -1,7 +1,7 @@
-function hobbies(hobbyOne,hobbyTwo,hobbyThree) {
+function hobbies(hobbyOne,hobbyTwo,hobbyThree) { 
 
     return{
- hobbies:[hobbyOne,hobbyTwo,hobbyThree
+ hobbiesArray:[hobbyOne,hobbyTwo,hobbyThree
  ]  
     };
 }
